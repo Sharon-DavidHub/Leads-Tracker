@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "url_autoSaver",
+    "version": "1.0",
+    "description": "Automatically copies the url of the current webpage and saves for later easy access. Also allows manual saving.",
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "/chrome_ExtensionICON1.png",
+        "48": "/chrome_ExtensionICON2.png",
+        "128": "/chrome_ExtensionICON3.png"
+    },
+    "action": {
+        "default_popup": "chrome_Extension.html",
+        "default_icon": {
+            "16": "/chrome_ExtensionICON1.png",
+            "48": "/chrome_ExtensionICON2.png",
+            "128": "/chrome_ExtensionICON3.png"
+        }
+    },
+    "homepage_url": "https://github.com/Sharon-DavidHub/Leads-Tracker"
+}

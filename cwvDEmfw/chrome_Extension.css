@@ -1,0 +1,168 @@
+html, body {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 448px;
+    max-width: 474px;
+    min-height: 154px;
+    max-height: 208px;
+    background-color: beige;
+}
+
+
+
+
+.input {
+    width: var(--element-width);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid burlywood;
+    margin-top: -4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    
+}
+
+
+
+
+.input::placeholder {
+    color: #5f9341;
+    opacity: 1;
+    
+}
+
+
+
+
+.btns {
+    display: flex;
+    max-width: var(--element-width);
+    position: relative;
+    margin: 1px auto;
+    padding: 0px;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 16px;
+    
+}
+
+
+
+
+#input-btn {
+    background-color: burlywood;
+    color: white;
+    border: 1px solid burlywood;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);   /* Red+blue+green gives black with code 000*/
+    padding: 8px;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+
+
+
+#delete-btn {
+    background-color: burlywood;
+    color: white;
+    border: 1px solid burlywood;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);   /* Red+blue+green gives black with code 000*/
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+
+#Msg1st-el {
+    font-size: 12.5px;
+    color: green;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+#tab-btn {
+    background-color: white;
+    color: burlywood;
+    border: 1.3px solid burlywood;
+    padding: 8px 12px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);   /* Red+blue+green gives black with code 000*/
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+
+
+
+#deleteIt {
+    background-color: burlywood;
+    color: white;
+    border: 1.3px solid burlywood;
+    margin-top: 4px;
+    padding: 2.2px 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2); 
+    position: absolute;
+    left: 140px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+#Msg2nd-el {
+    font-size: 12px;
+    color: green;
+    padding: 0px;
+    margin: -2px;
+}
+
+
+
+
+
+#ul-el {
+    margin-top: 35px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+#ul-el li {
+    margin-top: 4px;
+    padding: 16px auto;
+}
+
+
+#ul-el button {
+    background: ivory;
+    color: #5f9341;
+    border: grey;
+    border-radius: 5px;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: #5f9341;
+    font-size: 13px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+#ul-el button:hover {
+    background-color: whitesmoke;
+}
+
+
+#ul-el button a {
+    color: #5f9341;
+}
+
+
+.delete-mode li button a {
+    pointer-events: none; /* Disable link clicks when in delete mode */
+}
